@@ -1,0 +1,146 @@
+/* src/components/InboxSharing.module.css */
+
+.container {
+    background-color: #1b1d23;
+    color: #e3e3e3;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    max-width: 600px;
+    margin: auto;
+    border-radius: 8px;
+  }
+  
+  .header {
+    border-bottom: 1px solid #333;
+    padding-bottom: 16px;
+  }
+  
+  .emailInfo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .googleIcon {
+    width: 24px;
+    height: 24px;
+  }
+  
+  .email {
+    font-weight: bold;
+    color: #e3e3e3;
+  }
+  
+  .syncStatus {
+    background-color: #27a745;
+    color: #fff;
+    padding: 4px 8px;
+    border: none;
+    border-radius: 4px;
+    font-size: 12px;
+  }
+  
+  .updateText {
+    font-size: 14px;
+    color: #b3b3b3;
+  }
+  
+  .sharingConfig {
+    margin-top: 20px;
+  }
+  
+  .sharingConfig h3 {
+    font-size: 16px;
+  }
+  
+  .sharingOption {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    border-top: 1px solid #333;
+  }
+  
+  .sharingOption input {
+    margin-right: 10px;
+  }
+  
+  .sharingOption label {
+    display: flex;
+    flex-direction: column;
+    color: #ccc;
+  }
+  
+  .sharingOption span {
+    font-weight: bold;
+    color: #e3e3e3;
+  }
+  
+  .plusBadge {
+    background-color: #ffcc00;
+    color: #333;
+    padding: 2px 4px;
+    border-radius: 4px;
+    font-size: 12px;
+    margin-left: 6px;
+  }
+  
+  .inboxSharing {
+    margin-top: 20px;
+  }
+  
+  .inboxSharing h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .user {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    border-top: 1px solid #333;
+  }
+  
+  .avatar {
+    background-color: #666;
+    color: white;
+    font-size: 16px;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+  }
+  
+  .userName {
+    font-weight: bold;
+    color: #e3e3e3;
+  }
+  
+  .userEmail {
+    color: #888;
+    font-size: 14px;
+    margin-left: 8px;
+  }
+  
+  .accessLevel {
+    background-color: #444;
+    color: #e3e3e3;
+    border: none;
+    padding: 4px 8px;
+    font-size: 14px;
+    margin-left: auto;
+  }
+  
+  .shareButton {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 6px 12px;
+    cursor: pointer;
+    margin-left: 10px;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
