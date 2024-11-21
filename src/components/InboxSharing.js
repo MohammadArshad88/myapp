@@ -1,5 +1,5 @@
 // src/components/InboxSharing.js
-import Image from 'next/image';
+//import Image from 'next/image';
 import styles from './InboxSharing.module.css';
 
 const InboxSharing = () => {
